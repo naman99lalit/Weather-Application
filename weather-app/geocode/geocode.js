@@ -11,10 +11,10 @@ var geocodeAddress = (city, callBack)=>{
     }
     else if(body.cod===200){
       callBack(undefined,{
+        city:body.name,
         lon:body.coord.lon,
         lat:body.coord.lat
       });
-    // console.log(`Coordinates:  Longitude-${body.coord.lon}  Latitude-${body.coord.lat}`);
     }
     else{
       callBack('Unable to find the city.');
