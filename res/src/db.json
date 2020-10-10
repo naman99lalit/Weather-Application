@@ -1,0 +1,29 @@
+{
+   "users":{
+        "requestly":{
+            "password":"Adminrequestly",
+            "extension":"requestly"
+        },
+        "adblock":{
+            "password":"Adminadblock",
+            "extension":"adblock"
+        }
+   },
+    "requestly":{
+        "Expensive":{
+            "count":0
+        },
+        "Not useful":{
+            "count":0
+        }
+    },
+    "adblock":{
+        "Expensive":{
+            "count":0
+        },
+        "Not useful":{
+            "count":0
+        }
+    }
+
+}
